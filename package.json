@@ -1,0 +1,25 @@
+{
+  "name": "typeorm-pusrchaselist",
+  "version": "1.0.0",
+  "description": "Lista de compras",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --watch 'src/' --exec \"ts-node src/index.ts\" -e ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.10.1",
+    "@types/express": "^4.17.6",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
+  }
+}
